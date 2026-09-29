@@ -1,0 +1,22 @@
+data_dir: data
+decision:
+  backend: jev
+  model: typesafe/jev-1.13
+  base_url: https://openrouter.ai/api/alpha
+  timeout_sec: 60
+  max_retries: 3
+search:
+  beam_width: 3
+  max_depth: 5
+  branch_threshold: 0.35
+  candidate_cutoff: 200
+  bm25_top_k: 100
+  rerank_top_k: 50
+  final_top_k: 25
+  exploration_branches: 3
+  extra_lexical_branch: true
+ingest:
+  batch_size: 50000
+  year_buckets:
+    recent_days: 730
+    medium_days: 1825

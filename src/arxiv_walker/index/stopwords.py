@@ -1,0 +1,15 @@
+STOPWORDS: frozenset[str] = frozenset({
+    "a", "an", "the", "and", "or", "but", "in", "on", "at", "to",
+    "for", "of", "by", "with", "from", "as", "is", "was", "are",
+    "were", "be", "been", "being", "have", "has", "had", "do",
+    "does", "did", "will", "would", "can", "could", "shall",
+    "should", "may", "might", "must", "it", "its", "this",
+    "that", "these", "those", "we", "they", "he", "she", "not",
+    "no", "nor", "so", "if", "than", "then", "also", "very",
+    "just", "about", "into", "over", "such", "only", "other",
+    "more", "some", "which", "what", "when", "where", "how",
+    "all", "each", "both", "few", "most", "any", "who", "whom",
+    "because", "between", "after", "before", "under", "while",
+    "without", "through", "during", "above", "below", "up",
+    "out", "off", "down", "here", "there", "one", "two",
+})
